@@ -1,8 +1,5 @@
 package Acme::Vuvuzela;
-BEGIN {
-  $Acme::Vuvuzela::VERSION = '0.02';
-}
-
+$Acme::Vuvuzela::VERSION = '0.04';
 # ABSTRACT: the glorious sound of the vuvuzela
 
 use strict;
@@ -30,9 +27,11 @@ sub KILL {
 
 qq[bzzzzzzzzzzzzzzzzzz];
 
-
 __END__
+
 =pod
+
+=encoding UTF-8
 
 =head1 NAME
 
@@ -40,7 +39,7 @@ Acme::Vuvuzela - the glorious sound of the vuvuzela
 
 =head1 VERSION
 
-version 0.02
+version 0.04
 
 =head1 SYNOPSIS
 
@@ -66,16 +65,19 @@ Stops the vuvuzela dead.
 
 =back
 
+=head1 SEE ALSO
+
+L<http://en.wikipedia.org/wiki/Vuvuzela>
+
 =head1 AUTHOR
 
 Chris Williams <chris@bingosnet.co.uk>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2010 by Chris Williams.
+This software is copyright (c) 2014 by Chris Williams.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-

@@ -2,7 +2,7 @@ NAME
     Acme::Vuvuzela - the glorious sound of the vuvuzela
 
 VERSION
-    version 0.02
+    version 0.04
 
 SYNOPSIS
       use Acme::Vuvuzela;
@@ -23,11 +23,14 @@ FUNCTIONS
 
           Acme::Vuvuzela::KILL;
 
+SEE ALSO
+    <http://en.wikipedia.org/wiki/Vuvuzela>
+
 AUTHOR
     Chris Williams <chris@bingosnet.co.uk>
 
 COPYRIGHT AND LICENSE
-    This software is copyright (c) 2010 by Chris Williams.
+    This software is copyright (c) 2014 by Chris Williams.
 
     This is free software; you can redistribute it and/or modify it under
     the same terms as the Perl 5 programming language system itself.
